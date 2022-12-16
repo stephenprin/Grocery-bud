@@ -1,0 +1,42 @@
+.sectionCenter {
+    background: var(--clr-white);
+    border-radius: var(--radius);
+    box-shadow: var(--light-shadow);
+    transition: var(--transition);
+    padding: 2rem;
+  }
+  .sectionCenter:hover {
+    box-shadow: var(--dark-shadow);
+  }
+  .groceryContainer {
+    margin-top: 2rem;
+ 
+  }
+  .sectionCenter {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 35rem;
+    margin-top: 8rem;
+  }
+
+  .clearBtn {
+    text-transform: capitalize;
+    width: 10rem;
+    height: 1.5rem;
+    display: grid;
+    align-items: center;
+    background: transparent;
+    border-color: transparent;
+    color: var(--clr-red-light);
+    margin: 0 auto;
+    font-size: 0.85rem;
+    letter-spacing: var(--spacing);
+    cursor: pointer;
+    transition: var(--transition);
+    margin-top: 1.25rem;
+  }
+  .clearBtn:hover {
+    color: var(--clr-red-dark);
+  }
+
+ 
