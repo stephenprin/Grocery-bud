@@ -172,6 +172,7 @@ Grocery List
   border-radius: 0.25rem;
   letter-spacing: var(--spacing);
   text-transform: capitalize;
+
 }
 .alert-danger {
   color: #721c24;
@@ -180,6 +181,7 @@ Grocery List
 .alert-success {
   color: #155724;
   background: #d4edda;
+  
 }
 
 

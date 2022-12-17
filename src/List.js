@@ -3,7 +3,7 @@ import { FaEdit, FaTrash } from 'react-icons/fa';
 
 import ListModule from './List.module.css'
 
-const List = ({ items }) => {
+const List = ({ items, deleteItem}) => {
     
 
   return (
@@ -15,7 +15,7 @@ const List = ({ items }) => {
                 <p className={ListModule.title}>{title}</p>
                 <div className={ListModule.btnContainer}>
                     <button type="button" className={ListModule.editBtn}><FaEdit /></button>
-                    <button type="button" className={ListModule.deleteBtn}><FaTrash/></button>
+                    <button type="button" className={ListModule.deleteBtn} onClick={()=>deleteItem(id)}><FaTrash/></button>
                 </div>
             </article>
               )
